@@ -1,0 +1,2 @@
+# Spirals
+Funny successor game
