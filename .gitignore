@@ -1,7 +1,7 @@
 # Project place file
 *.rbxl
 *.rbxlx
-Packages
+# Packages/* #Uncomment this when we have any packages
 build
 
 # Roblox Studio lock files
