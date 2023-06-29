@@ -1,0 +1,12 @@
+# Project place file
+*.rbxl
+*.rbxlx
+Packages
+build
+
+# Roblox Studio lock files
+*.rbxl.lock
+*.rbxlx.lock
+
+# Json files
+sourcemap.json

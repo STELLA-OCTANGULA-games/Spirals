@@ -1,31 +1,37 @@
 {
-  "name": "project",
+	"name": "spirals",
 
-  "tree": {
-    "$className": "DataModel",
+		"tree": {
+		"$className": "DataModel",
 
-    "ReplicatedStorage": {
-      "$className": "ReplicatedStorage",
-      "$ignoreUnknownInstances": true,
-      "$path": "src/ReplicatedStorage"
-    },
+		"ReplicatedFirst": {
+			"$path": "src/ReplicatedFirst"
+		},
 
-    "ServerScriptService": {
-      "$className": "ServerScriptService",
-      "$ignoreUnknownInstances": true,
-      "$path": "src/ServerScriptService"
-    },
+		"ReplicatedStorage": {
+			"$path": "src/ReplicatedStorage",
 
-    "StarterPlayer": {
-      "$className": "StarterPlayer",
+			"Packages": {
+				"$path": "Packages"
+			}
+		},
 
-      "StarterPlayerScripts": {
-        "$className": "StarterPlayerScripts",
-        "$ignoreUnknownInstances": true,
-        "$path": "src/StarterPlayerScripts"
-      },
+		"ServerScriptService": {
+			"$path": "src/ServerScriptService"
+		},
 
-      "$ignoreUnknownInstances": true
-    }
-  }
+		"ServerStorage": {
+			"$path": "src/ServerStorage"
+		},
+
+		"StarterPlayer": {
+			"StarterPlayerScripts": {
+				"$path": "src/StarterPlayerScripts"
+			},
+
+			"StarterCharacterScripts": {
+				"$path": "src/StarterCharacterScripts"
+			}
+		}
+	}
 }
